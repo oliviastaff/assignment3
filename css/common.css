@@ -1,0 +1,43 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
+html {
+    color: #ccc;
+}
+
+body {
+/*    min-height: 100vh;*/
+}
+
+h1,
+h2 {
+    color: #fff;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    font-size: 1.2em;
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+a:hover {
+    color: #aaa;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.background--grey {
+    background-color: #aaaaaa;
+}

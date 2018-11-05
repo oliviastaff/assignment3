@@ -3,6 +3,10 @@
     box-shadow: 6px 6px black;
 }
 
+.links {
+    color: white
+}
+
 img {
     box-shadow: 5px 5px orange;
 }
@@ -18,4 +22,86 @@ h2{
 
 html {
     font-family: helvetica;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {    
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex:1;
+}
+
+.container {
+
+/*    width: 700px;*/
+    height: 700px;
+
+    display: flex;
+    
+/*    flex-direction default is row */
+/*    flex-direction: column; */
+    
+/*    flex-wrap default is nowrap */
+    flex-wrap: wrap; 
+        
+/*    justify-content default is flex-start, applies to main-axis */
+/*    justify-content: flex-end; */
+    
+/*    align-items default is stretch, applies to cross-axis */
+/*    align-items: flex-end; */
+    
+/*    align-content default is stretch, only applies if multiple lines present */
+/*    align-content: center;*/
+    
+}
+.container__item {
+    
+/*    flex-basis default is auto */
+/*    flex-basis: 30%; */
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555;
+}
+
+footer nav ul {    
+    display: flex;
+}
+
+footer nav li {
+    list-style-type: none;
+    font-size: .75em;
+    padding: 1em;
 }

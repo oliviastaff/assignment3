@@ -4,11 +4,13 @@
 }
 
 .links {
-    color: white
+    color: orange;
 }
 
 img {
     box-shadow: 5px 5px orange;
+    justify-content: center;
+    align-content: center;
 }
 
 #special-pic {
@@ -22,6 +24,11 @@ h2{
 
 html {
     font-family: helvetica;
+}
+
+.borderexample {
+    border: thin;
+    border-color: orange;
 }
 
 body {
@@ -82,6 +89,23 @@ main {
 /*    align-content default is stretch, only applies if multiple lines present */
     align-content: center;
     
+}
+#special {
+    align-content: center;
+    justify-content: center;
+}
+
+
+a:hover {
+    color: #cccccc;
+}
+
+.unlucky {
+    height:200; 
+    width:300;
+}
+.cat {
+    width: 175px;
 }
 .container__item {
     

@@ -20,6 +20,8 @@ img {
 
 h2{
     padding-left: 25px;
+    border: thin;
+    border-color: orange;
 }
 
 html {
@@ -95,7 +97,9 @@ main {
     justify-content: center;
 }
 
-
+a {
+    color: white;
+}
 a:hover {
     color: #cccccc;
 }
